@@ -26,6 +26,9 @@ vmap <leader><leader> <C-[>
 " Fast Nerdtree
 nmap <leader>e :NERDTree<cr>
 
+" Fast move between tabs
+nmap <leader>t <C-w><C-w>
+
 " Make sure I can see the when I entered a leader
 set showcmd
 
