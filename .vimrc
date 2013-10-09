@@ -18,10 +18,16 @@ nmap <leader>w :w!<cr>
 nmap <leader>q :wq!<cr>
 
 " Fast escaping insert mode
-inoremap <leader><leader> <Esc> 
+imap <leader><leader> <C-[> 
+
+" Fast escaping visual and select mode
+vmap <leader><leader> <C-[> 
 
 " Fast Nerdtree
 nmap <leader>e :NERDTree<cr>
+
+" Make sure I can see the when I entered a leader
+set showcmd
 
 " Turn on that syntax highlighting
 syntax enable
@@ -54,8 +60,8 @@ set wildmenu
 
 " Let's make it easy to edit this file (mnemonic for the key sequence is
 " 'e'dit 'v'imrc)
-nmap <silent> ,ev :e $MYVIMRC<cr>
+nmap <silent> ,ev :e ~/.vim/.vimrc<cr>
 
 " And to source this file as well (mnemonic for the key sequence is
 " 's'ource 'v'imrc)
-nmap <silent> ,sv :so $MYVIMRC<cr>
+nmap <silent> ,sv :so ~/.vim/.vimrc<cr>
