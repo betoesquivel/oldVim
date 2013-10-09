@@ -14,6 +14,15 @@ let g:mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 
+" Fast saving and exiting
+nmap <leader>q :wq!<cr>
+
+" Fast escaping insert mode
+inoremap <leader><leader> <Esc> 
+
+" Fast Nerdtree
+nmap <leader>e :NERDTree<cr>
+
 " Turn on that syntax highlighting
 syntax enable
 
