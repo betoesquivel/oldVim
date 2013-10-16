@@ -23,10 +23,13 @@ imap <leader><leader> <C-[>
 " Fast escaping visual and select mode
 vmap <leader><leader> <C-[> 
 
+" Fast pasting from system clipboard
+nmap <C-S-p> <"*p> 
+
 " Fast Nerdtree
 nmap <leader>e :NERDTree<cr>
 
-" Fast move between tabs
+" Fast move next tab
 nmap <leader>t <C-w><C-w>
 
 " Make sure I can see the when I entered a leader
