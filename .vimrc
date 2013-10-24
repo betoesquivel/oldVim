@@ -18,13 +18,16 @@ nmap <leader>w :w!<cr>
 nmap <leader>q :wq!<cr>
 
 " Fast escaping insert mode
-imap <leader><leader> <C-[> 
+imap ;; <Esc> 
 
 " Fast escaping visual and select mode
-vmap <leader><leader> <C-[> 
+vmap ;; <Esc> 
 
 " Fast pasting from system clipboard
-nmap <C-S-p> <"*p> 
+nmap <C-S-p> "+p<CR>
+
+" Fast copying to system clipboard
+vmap <C-c> "+y<CR>
 
 " Fast Nerdtree
 nmap <leader>e :NERDTree<cr>
