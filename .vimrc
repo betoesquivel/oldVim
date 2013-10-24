@@ -35,6 +35,9 @@ nmap <leader>e :NERDTree<cr>
 " Fast move next tab
 nmap <leader>t <C-w><C-w>
 
+" Fast comment
+map <leader>c <C-_><C-_>
+
 " Make sure I can see the when I entered a leader
 set showcmd
 
