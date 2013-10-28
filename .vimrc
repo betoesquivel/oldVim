@@ -19,10 +19,10 @@ nmap <leader>w :w!<cr>
 nmap <leader>q :wq!<cr>
 
 " Fast escaping insert mode
-imap ;; <Esc> 
+imap <leader>. <Esc> 
 
 " Fast escaping visual and select mode
-vmap ;; <Esc> 
+vmap <leader>. <Esc> 
 
 " Fast pasting from system clipboard
 nmap <C-S-p> "+p<CR>
