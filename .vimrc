@@ -3,7 +3,7 @@ set nocompatible
 " Pathogen installation
 execute pathogen#infect()
 
-" Get that filetype stuff happening
+" Get that filetype stuff happening, this is a bad comment
 filetype on
 filetype plugin on
 filetype indent on
