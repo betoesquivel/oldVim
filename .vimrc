@@ -14,6 +14,7 @@ let g:mapleader = ","
 
 " Fast saving
 nmap <leader>w :w!<cr>
+nmap <leader>. :w!<cr>
 
 " Fast saving and exiting
 nmap <leader>q :wq!<cr>
