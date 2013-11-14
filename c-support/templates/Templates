@@ -2,13 +2,13 @@
 §  User Macros
 § ==========================================================
 
-SetMacro( 'AUTHOR',      'YOUR NAME' )
+SetMacro( 'AUTHOR',      'Jose Alberto Esquivel Patino' )
 SetMacro( 'AUTHORREF',   '' )
-SetMacro( 'COMPANY',     '' )
+SetMacro( 'COMPANY',     'ITESM' )
 SetMacro( 'COPYRIGHT',   'Copyright (c) |YEAR|, |AUTHOR|' )
 SetMacro( 'EMAIL',       '' )
 SetMacro( 'LICENSE',     'GNU General Public License' )
-SetMacro( 'ORGANIZATION','' )
+SetMacro( 'ORGANIZATION','ITESM Campus Monterrey' )
 
 SetStyle( 'C' )
 
