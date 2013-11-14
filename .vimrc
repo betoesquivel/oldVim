@@ -1,4 +1,4 @@
-" FOrget being compatible with good ol' vi
+" Forget being compatible with good ol' vi
 set nocompatible
 " Pathogen installation
 execute pathogen#infect()
