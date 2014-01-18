@@ -1,5 +1,7 @@
 " Forget being compatible with good ol' vi
 set nocompatible
+
+
 " Pathogen installation
 execute pathogen#infect()
 
@@ -27,6 +29,9 @@ vmap <leader>. <Esc>
 
 " Fast pasting from system clipboard
 nmap <C-S-p> "+p<CR>
+
+" Fast pasting from system clipboard
+vmap <C-S-p> "+p<CR>
 
 " Fast copying to system clipboard
 vmap <C-c> "+y<CR>
