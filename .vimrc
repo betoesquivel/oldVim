@@ -45,6 +45,9 @@ nmap <leader>t <C-w><C-w>
 " Fast comment
 map <leader>c <C-_><C-_>
 
+" Search and replace all instances of word under cursor
+nmap <Leader>s :%s/\<<C-r><C-w>\>/
+
 " Make sure I can see the when I entered a leader
 set showcmd
 
