@@ -56,16 +56,18 @@ syntax enable
 
 " Installation of solarized
 if has('gui_running')
-	set background=light
+	set background=dark
 else
 	set background=dark
 endif
 
 if has('gui_running')
-	colorscheme solarized
+	colorscheme molokai
 else
 	colorscheme twilight
 endif
+
+let g:molokai_original = 1 
 
 " Why is this not a default
 set hidden
